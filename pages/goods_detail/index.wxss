@@ -1,0 +1,96 @@
+Page {
+  padding-bottom: 90rpx;
+}
+.goods_detail .detail_swiper swiper {
+  height: 65vw;
+  text-align: center;
+}
+.goods_detail .detail_swiper swiper image {
+  width: 60%;
+}
+.goods_detail .goods_price {
+  padding: 20rpx;
+  color: var(--themeColor);
+  font-size: 32rpx;
+  font-weight: 600;
+  border-bottom: 3px solid #dedede;
+}
+.goods_detail .goods_name_row {
+  display: flex;
+  padding: 15rpx 0;
+  border-bottom: 3px solid #dedede;
+}
+.goods_detail .goods_name_row .goods_name {
+  flex: 5;
+  color: #000;
+  font-size: 30rpx;
+  padding: 0 10rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.goods_detail .goods_name_row .goods_collect {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 1rpx solid #000;
+}
+.goods_detail .goods_name_row .goods_collect .iconfont {
+  flex: 1;
+}
+.goods_detail .goods_name_row .goods_collect .icon-shoucang1 {
+  color: orangered;
+}
+.goods_detail .goods_name_row .goods_collect .collect_text {
+  flex: 1;
+}
+.goods_detail .goods_info .goods_info_title {
+  font-size: 32rpx;
+  color: var(--themeColor);
+  font-weight: 600;
+  padding: 20rpx;
+}
+.goods_detail .btm_tool {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90rpx;
+  background-color: #fff;
+}
+.goods_detail .btm_tool .tool_item {
+  flex: 1;
+  position: relative;
+}
+.goods_detail .btm_tool .tool_item button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.goods_detail .btm_tool .btn_car {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffa300;
+  height: 100%;
+}
+.goods_detail .btm_tool .btn_buy {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fb5351;
+  height: 100%;
+}

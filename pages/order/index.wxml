@@ -1,0 +1,243 @@
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange"
+>
+  <block wx:if="{{tabs[0].isActive}}" data-id="0">
+    <view class="order_title">
+      <view class="order_main">
+        <view class="order_num_row">
+          <view class="order_num_text">订单编号</view>
+          <view class="order_num_value">HMDD20210306000000001104</view>
+        </view>
+        <view class="order_price_row">
+          <view class="order_price_text">订单价格</view>
+          <view class="order_price_value">￥13698</view>
+        </view>
+        <view class="order_time_row">
+          <view class="order_time_text">订单日期</view>
+          <view class="order_time_value">2021/6/3 下午 14:59:35</view>
+        </view>
+      </view>
+      <view class="order_main">
+        <view class="order_num_row">
+          <view class="order_num_text">订单编号</view>
+          <view class="order_num_value">HMDD20210306000000001104</view>
+        </view>
+        <view class="order_price_row">
+          <view class="order_price_text">订单价格</view>
+          <view class="order_price_value">￥13698</view>
+        </view>
+        <view class="order_time_row">
+          <view class="order_time_text">订单日期</view>
+          <view class="order_time_value">2021/6/3 下午 14:59:35</view>
+        </view>
+      </view>
+      <view class="order_main">
+        <view class="order_num_row">
+          <view class="order_num_text">订单编号</view>
+          <view class="order_num_value">HMDD20210306000000001104</view>
+        </view>
+        <view class="order_price_row">
+          <view class="order_price_text">订单价格</view>
+          <view class="order_price_value">￥13698</view>
+        </view>
+        <view class="order_time_row">
+          <view class="order_time_text">订单日期</view>
+          <view class="order_time_value">2021/6/3 下午 14:59:35</view>
+        </view>
+      </view>
+      <view class="order_main">
+        <view class="order_num_row">
+          <view class="order_num_text">订单编号</view>
+          <view class="order_num_value">HMDD20210306000000001104</view>
+        </view>
+        <view class="order_price_row">
+          <view class="order_price_text">订单价格</view>
+          <view class="order_price_value">￥13698</view>
+        </view>
+        <view class="order_time_row">
+          <view class="order_time_text">订单日期</view>
+          <view class="order_time_value">2021/6/3 下午 14:59:35</view>
+        </view>
+      </view>
+    </view>
+  </block>
+  <block wx:elif="{{tabs[1].isActive}}" data-id="1">
+    <view class="order_title">
+      <view class="order_main">
+        <view class="order_num_row">
+          <view class="order_num_text">订单编号</view>
+          <view class="order_num_value">CMDD20210606000000001104</view>
+        </view>
+        <view class="order_price_row">
+          <view class="order_price_text">订单价格</view>
+          <view class="order_price_value">￥9698</view>
+        </view>
+        <view class="order_time_row">
+          <view class="order_time_text">订单日期</view>
+          <view class="order_time_value">2021/6/6 下午 15:59:35</view>
+        </view>
+      </view>
+      <view class="order_main">
+        <view class="order_num_row">
+          <view class="order_num_text">订单编号</view>
+          <view class="order_num_value">CMDD20210606000000001104</view>
+        </view>
+        <view class="order_price_row">
+          <view class="order_price_text">订单价格</view>
+          <view class="order_price_value">￥9698</view>
+        </view>
+        <view class="order_time_row">
+          <view class="order_time_text">订单日期</view>
+          <view class="order_time_value">2021/6/6 下午 15:59:35</view>
+        </view>
+      </view>
+      <view class="order_main">
+        <view class="order_num_row">
+          <view class="order_num_text">订单编号</view>
+          <view class="order_num_value">CMDD20210606000000001104</view>
+        </view>
+        <view class="order_price_row">
+          <view class="order_price_text">订单价格</view>
+          <view class="order_price_value">￥9698</view>
+        </view>
+        <view class="order_time_row">
+          <view class="order_time_text">订单日期</view>
+          <view class="order_time_value">2021/6/6 下午 15:59:35</view>
+        </view>
+      </view>
+      <view class="order_main">
+        <view class="order_num_row">
+          <view class="order_num_text">订单编号</view>
+          <view class="order_num_value">CMDD20210606000000001104</view>
+        </view>
+        <view class="order_price_row">
+          <view class="order_price_text">订单价格</view>
+          <view class="order_price_value">￥9698</view>
+        </view>
+        <view class="order_time_row">
+          <view class="order_time_text">订单日期</view>
+          <view class="order_time_value">2021/6/6 下午 15:59:35</view>
+        </view>
+      </view>
+    </view>
+  </block>
+  <block wx:elif="{{tabs[2].isActive}}" data-id="2">
+    <view class="order_title">
+      <view class="order_main">
+        <view class="order_num_row">
+          <view class="order_num_text">订单编号</view>
+          <view class="order_num_value">XYZZ20211024000000003655</view>
+        </view>
+        <view class="order_price_row">
+          <view class="order_price_text">订单价格</view>
+          <view class="order_price_value">￥9999</view>
+        </view>
+        <view class="order_time_row">
+          <view class="order_time_text">订单日期</view>
+          <view class="order_time_value">2021/10/24 下午 22:24:24</view>
+        </view>
+      </view>
+      <view class="order_main">
+        <view class="order_num_row">
+          <view class="order_num_text">订单编号</view>
+          <view class="order_num_value">XYZZ20211024000000003655</view>
+        </view>
+        <view class="order_price_row">
+          <view class="order_price_text">订单价格</view>
+          <view class="order_price_value">￥9999</view>
+        </view>
+        <view class="order_time_row">
+          <view class="order_time_text">订单日期</view>
+          <view class="order_time_value">2021/10/24 下午 22:24:24</view>
+        </view>
+      </view>
+      <view class="order_main">
+        <view class="order_num_row">
+          <view class="order_num_text">订单编号</view>
+          <view class="order_num_value">XYZZ20211024000000003655</view>
+        </view>
+        <view class="order_price_row">
+          <view class="order_price_text">订单价格</view>
+          <view class="order_price_value">￥9999</view>
+        </view>
+        <view class="order_time_row">
+          <view class="order_time_text">订单日期</view>
+          <view class="order_time_value">2021/10/24 下午 22:24:24</view>
+        </view>
+      </view>
+      <view class="order_main">
+        <view class="order_num_row">
+          <view class="order_num_text">订单编号</view>
+          <view class="order_num_value">XYZZ20211024000000003655</view>
+        </view>
+        <view class="order_price_row">
+          <view class="order_price_text">订单价格</view>
+          <view class="order_price_value">￥9999</view>
+        </view>
+        <view class="order_time_row">
+          <view class="order_time_text">订单日期</view>
+          <view class="order_time_value">2021/10/24 下午 22:24:24</view>
+        </view>
+      </view>
+    </view>
+  </block>
+  <block wx:elif="{{tabs[3].isActive}}" data-id="3">
+    <view class="order_title">
+      <view class="order_main">
+        <view class="order_num_row">
+          <view class="order_num_text">订单编号</view>
+          <view class="order_num_value">HMDD20210306000000001104</view>
+        </view>
+        <view class="order_price_row">
+          <view class="order_price_text">订单价格</view>
+          <view class="order_price_value">￥13698</view>
+        </view>
+        <view class="order_time_row">
+          <view class="order_time_text">订单日期</view>
+          <view class="order_time_value">2021/6/3 下午 14:59:35</view>
+        </view>
+      </view>
+      <view class="order_main">
+        <view class="order_num_row">
+          <view class="order_num_text">订单编号</view>
+          <view class="order_num_value">HMDD20210306000000001104</view>
+        </view>
+        <view class="order_price_row">
+          <view class="order_price_text">订单价格</view>
+          <view class="order_price_value">￥13698</view>
+        </view>
+        <view class="order_time_row">
+          <view class="order_time_text">订单日期</view>
+          <view class="order_time_value">2021/6/3 下午 14:59:35</view>
+        </view>
+      </view>
+      <view class="order_main">
+        <view class="order_num_row">
+          <view class="order_num_text">订单编号</view>
+          <view class="order_num_value">HMDD20210306000000001104</view>
+        </view>
+        <view class="order_price_row">
+          <view class="order_price_text">订单价格</view>
+          <view class="order_price_value">￥13698</view>
+        </view>
+        <view class="order_time_row">
+          <view class="order_time_text">订单日期</view>
+          <view class="order_time_value">2021/6/3 下午 14:59:35</view>
+        </view>
+      </view>
+      <view class="order_main">
+        <view class="order_num_row">
+          <view class="order_num_text">订单编号</view>
+          <view class="order_num_value">HMDD20210306000000001104</view>
+        </view>
+        <view class="order_price_row">
+          <view class="order_price_text">订单价格</view>
+          <view class="order_price_value">￥13698</view>
+        </view>
+        <view class="order_time_row">
+          <view class="order_time_text">订单日期</view>
+          <view class="order_time_value">2021/6/3 下午 14:59:35</view>
+        </view>
+      </view>
+    </view>
+  </block>
+</Tabs>
